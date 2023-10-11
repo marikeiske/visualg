@@ -1,0 +1,33 @@
+algoritmo "exercício"
+// Função :
+// Autor :
+// Data : 11/10/2023
+// Seção de Declarações 
+
+
+var
+            nome: caractere
+   num1, num2, num3, media: real
+
+inicio
+               escreval("Qual o seu nome:")
+             leia(nome)
+
+                escreval("Qual o sua primeira nota?")
+             leia (num1)
+                 escreval("Qual o sua segunda nota?")
+             leia(num2)
+                escreval("Qual o sua terceira nota?")
+             leia(num3)
+             
+             media <- (num1+num2+num3)/3
+
+                 se(media > 6) entao
+             escreval(nome, " você foi aprovado(a)! parabens <3")
+                 senao
+             escreval(nome, " você foi reprovado(a)!tente dnv")
+             fimse
+
+
+
+fimalgoritmo
